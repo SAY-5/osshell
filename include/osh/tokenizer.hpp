@@ -7,7 +7,10 @@
 // educational shell tokenize-time substitution keeps the parser simple.
 
 #pragma once
+#include <cctype>
+#include <cstdint>
 #include <cstdlib>
+#include <stdexcept>
 #include <string>
 #include <string_view>
 #include <vector>

@@ -10,6 +10,7 @@
 
 #pragma once
 #include <chrono>
+#include <cstdint>
 #include <functional>
 #include <mutex>
 #include <optional>
