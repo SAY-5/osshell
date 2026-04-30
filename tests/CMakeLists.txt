@@ -21,3 +21,7 @@ add_test(NAME scheduler COMMAND test_scheduler)
 add_executable(test_stream test_stream.cpp)
 target_link_libraries(test_stream PRIVATE osshell)
 add_test(NAME stream COMMAND test_stream)
+
+add_executable(test_v4_history test_v4_history.cpp)
+target_link_libraries(test_v4_history PRIVATE osshell)
+add_test(NAME v4_history COMMAND test_v4_history)
